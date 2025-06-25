@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# 🧠 Mental Help Chatbot for Students
 
-## Project info
+> A multilingual, voice-enabled mental health support chatbot built with **Ollama 3.2B**, featuring **Text-to-Speech (TTS)**, **Speech-to-Text (STT)**, and **empathetic conversation flow** in **English**, **Bengali**, and **Hindi**.
 
-**URL**: https://lovable.dev/projects/7efdaf58-b12e-4b14-9006-b248b10c081f
+---
 
-## How can I edit this code?
+## 🧩 Overview
 
-There are several ways of editing your application.
+Mental health issues among students are rising rapidly due to academic pressure, isolation, and uncertainty. This chatbot provides **confidential**, **empathetic**, and **judgment-free** emotional support through natural conversation — using **voice or text**.
 
-**Use Lovable**
+Built to run **locally** using **Ollama 3.2B**, it ensures **privacy** and **offline functionality**, with multilingual capabilities for wider accessibility across India.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7efdaf58-b12e-4b14-9006-b248b10c081f) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🗣️ Key Features
 
-**Use your preferred IDE**
+- 🎤 **Voice-Based Input (STT)** — Converse naturally with your voice.
+- 🔊 **Text-to-Speech (TTS)** — Human-like responses in 3 languages.
+- 🌐 **Multilingual Support** — English, বাংলা (Bengali), हिन्दी (Hindi).
+- 🧠 **Local LLM Backend** — Powered by [Ollama 3.2B](https://ollama.com) for offline support.
+- 💬 **Emotionally Aware** — Sentiment analysis influences response tone.
+- 🔒 **Privacy-Focused** — No cloud-based processing; your data stays local.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🖼️ Demo
 
-Follow these steps:
+> [📽️ Insert a YouTube/GIF link here if available]  
+> Or add screenshots of the UI and chatbot interface
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+| Category        | Tools/Frameworks                            |
+|-----------------|----------------------------------------------|
+| LLM Backend     | Ollama 3.2B                                  |
+| Frontend        | React + Tailwind CSS                         |
+| Backend API     | Flask / Node.js (whichever you're using)     |
+| TTS             | Coqui.ai / pyttsx3 / gTTS                    |
+| STT             | Whisper / Vosk / FasterWhisper               |
+| Language Support| Googletrans / Indic-NLP / custom tokenizer   |
+| Deployment      | Localhost or on-premise                      |
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+## 🚀 Getting Started
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 1. Clone the Repo
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7efdaf58-b12e-4b14-9006-b248b10c081f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+git clone https://github.com/yourusername/Mental_Help_Chatbot.git
+cd Mental_Help_Chatbot
